@@ -1,6 +1,7 @@
 .container {
     display: flex;
     width: 500px;
+    color: white;
   }
   
   .morphing {
