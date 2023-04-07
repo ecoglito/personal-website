@@ -12,8 +12,8 @@ export default function Home({list}) {
     <div className={styles.background}>
       <div className={styles.container}>
         <Head>
-          <title>Personal Website</title>
-          <link rel="icon" href="/favicon.ico" />
+          <title>Enzo Coglit</title>
+          <link rel="icon" href="/favicon.png" />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Calibre&display=swap" rel="stylesheet"/>
 
@@ -37,7 +37,8 @@ export default function Home({list}) {
               <br></br>
               <br></br>
               
-              I'm passionate about working to create meaningful and lasting impact for humanity.
+  
+              I&apos;m passionate about working to create meaningful and lasting impact for humanity.
             </p>
             <div className = {styles.interestsContainer}>
               <p className = {styles.technologies}>

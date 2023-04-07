@@ -14,7 +14,6 @@ export default function ParallaxCard( {list}  ) {
   const cardRef = useRef(null);
 
   useEffect(() => {
-    console.log(list);
 
     const handleMouseMoveCard = (e) => {
       const rect = cardRef.current.getBoundingClientRect();
