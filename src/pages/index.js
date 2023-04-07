@@ -12,7 +12,7 @@ export default function Home({list}) {
     <div className={styles.background}>
       <div className={styles.container}>
         <Head>
-          <title>Enzo Coglit</title>
+          <title>Enzo Coglitore</title>
           <link rel="icon" href="/favicon.png" />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
         
