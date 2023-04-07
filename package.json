@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.3",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
+    "notion": "^0.0.1",
+    "radix-ui": "^1.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-spring": "^9.7.1",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^5.3.9",
+    "three": "^0.151.3"
   }
 }

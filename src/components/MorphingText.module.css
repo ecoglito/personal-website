@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    width: 500px;
+  }
+  
+  .morphing {
+    position: relative;
+    font-size: 3rem;
+    font-family: inter;
+    display: inline-block;
+    width: 500px;
+    font-weight: 500;
+  }
+  
+  .word {
+    position: absolute;
+    opacity: 0;
+    animation: word 16s infinite ease-in-out;
+  }
+  
+  .word:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .word:nth-child(2) {
+    animation-delay: 4s;
+  }
+  
+  .word:nth-child(3) {
+    animation-delay: 8s;
+  }
+  
+  .word:nth-child(4) {
+    animation-delay: 12s;
+  }
+  
+  @keyframes word {
+    0%,
+    5%,
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+    20%,
+    80% {
+      filter: blur(1em);
+      opacity: 0;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .morphing {
+      font-size: 2rem;
+    }
+  }
+  
