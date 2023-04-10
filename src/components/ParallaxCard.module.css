@@ -153,10 +153,9 @@
   }
   
 
-  .scrollableContainer {
-    overflow-x: auto;
-    overflow-y: hidden;
-    max-width: 100%; /* Adjust this value according to your needs */
+  .scrollableContainers {
+    overflow-y: scroll;
+    height: 375px;
   }
   
   

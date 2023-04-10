@@ -139,7 +139,7 @@ export default function ParallaxCard( {list}  ) {
                         <div key={item.id} className={styles.companyContainer}>
                         <div className={styles.company}>
                             <Image unoptimized src={ "https://s2.googleusercontent.com/s2/favicons?domain_url=" + item.properties.URL.url +"&sz=64" } height={20} width={20} alt="url favicon" />
-                            
+                          
                             <a className = {styles.title} href = {item.properties.URL.url}>
                                 {item.properties.Name.title[0]?.plain_text || ""}
                             </a>
